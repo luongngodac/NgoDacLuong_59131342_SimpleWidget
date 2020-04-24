@@ -102,7 +102,7 @@
                 android:id="@+id/cbCafe"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Đi cafe với bạn be"
+                android:text="Đi cafe với bạn bè"
                 android:layout_weight="1"/>
 
             <CheckBox
