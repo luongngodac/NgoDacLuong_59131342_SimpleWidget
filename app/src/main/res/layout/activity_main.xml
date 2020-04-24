@@ -25,7 +25,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Nhập ten của bạn vào đây" />
+            android:hint="Nhập tên của bạn vào đây" />
 
         <TextView
             android:id="@+id/textView5"
@@ -39,7 +39,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Nhập ngày sinh vào đây" />
+            android:hint="Nhập ngày sinh vào đây" />
 
         <TextView
             android:id="@+id/textView10"
@@ -132,7 +132,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Nhập sở thích khác" />
+            android:hint="Nhập sở thích khác" />
 
         <Button
             android:id="@+id/btXacNhan"
@@ -142,6 +142,15 @@
             android:layout_gravity="center"
             android:layout_marginTop="5dp"
             />
+
+        <TextView
+            android:id="@+id/txtKQ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="20sp"
+            android:gravity="bottom"
+            android:layout_gravity="bottom"/>
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
